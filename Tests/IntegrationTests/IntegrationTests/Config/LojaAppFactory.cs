@@ -15,7 +15,8 @@ namespace IntegrationTests.Config
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
-            builder.UseStartup<TStartup>();
+            //Temos que usar uma startup específica, qual uma genérica
+            builder.UseStartup<TStartup>(); 
             //O contexto de teste irá buscar as variáveis de ambiente configurado no startup
             builder.UseEnvironment("Testing");
         }
