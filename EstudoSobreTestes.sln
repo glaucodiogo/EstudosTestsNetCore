@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BF13230-712
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8463581-A598-491E-811A-19C4F69961D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{C1B85ED3-86EF-45C6-92A1-3D10A7B6E7FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{C1B85ED3-86EF-45C6-92A1-3D10A7B6E7FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Src\Api\Api.csproj", "{BDDAB771-F88F-4B62-882E-1E12DA01540C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "Tests\IntegrationTests\IntegrationTests\IntegrationTests.csproj", "{95E48543-C2DE-4586-98E2-DFD9F4656A6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "Tests\IntegrationTests\IntegrationTests\IntegrationTests.csproj", "{95E48543-C2DE-4586-98E2-DFD9F4656A6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD", "BDD\BDD.csproj", "{EA0EFFFD-8D41-4539-AA56-083A7F985055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDD", "BDD\BDD.csproj", "{EA0EFFFD-8D41-4539-AA56-083A7F985055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
