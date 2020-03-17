@@ -1,0 +1,29 @@
+Tipos de testes mais comuns
+
+- Testes de unidade: Teste uma única unidade, normalmente é uma classe.
+Usamos mock para fingir que um repository 
+
+Ex: Classe Pedido, isolada, sem interações com outras classes
+
+- Testes de integração: Teste utilizado para testar integração com banco de dados 
+ou mesmo serviços externos como uma api, etc.Eles garantem que as unidades
+da sua aplicação estão se integrando conforme o esperado.
+
+- Testes automatizados: Podemos considerar como teste de aceitação, simula 
+um usuário acessando o sistema, pode ser considerado um teste de regressão,garante
+que não irá surgir novos defeitos em componentes que já estavam funcionando
+nas versões anteriores.
+Ex: Um usuário coloca o produto no carrinho, depois clica no botão finalizar compra
+
+- Testes de carga: Load test, consiste em testar as capacidades da aplicação, 
+muitas vezes até seu limite, de forma que a aplicação não consiga mais responder.
+Pode ser também considerado como um teste de stress.
+Objetivo: Testar a performance do código e componentes em situações extremas.
+Descobrir gargalos.
+Interessante usar teste de carga, em aplicações web e em aplicações que é 
+esperado um grande volume de requisições.
+
+
+Podemos escolher algum teste conforme o cenário específico.
+Muitas vezes um projeto exige a necessidade de se ter testes automatizados, para 
+garantir que as telas não quebrem.
