@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" /> <!-- referência importante de se utilizar, não citada nas documentações-->
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" /> <!-- referência importante de se utilizar, não citada nas documentações-->
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
